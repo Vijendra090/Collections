@@ -1,6 +1,8 @@
-Adding new repo from unix terminal
+//Adding new repo from unix terminal
 
-1: go to the desired directory
-2: git init
-3: git remote add origin "https://github.com/username/Collection.git"
-
+echo "# Collections" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Vijendra090/Collections.git
+git push -u origin master
